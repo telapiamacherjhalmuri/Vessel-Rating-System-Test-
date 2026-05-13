@@ -1,0 +1,141 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "JW JEWEL",
+        "imo_number": "9402964",
+        "flag": "SG",
+        "vessel_type": "LIQUID TANKER",
+        "dimensions": {
+          "length": 126.36,
+          "width": 22.75,
+          "depth": 7.48,
+          "tonnage": {
+            "gross": 25277,
+            "net": 16678,
+            "dead_weight": 38535
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 2007,
+        "classification_society": "Indian Register of Shipping (IRS)",
+        "status": "Inactive",
+        "port_of_registry": "Singapore",
+        "call_sign": "VLQK3",
+        "mmsi": "271656657",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 20.40896,
+          "longitude": 64.99455,
+          "timestamp": "2024-12-20 04:00 (UTC+0)"
+        },
+        "movement": {
+          "speed": 0.5,
+          "course": 349.0,
+          "heading": 28.0
+        },
+        "status": "Underway Using Engine",
+        "signal_quality": "Moderate",
+        "accuracy": "90%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2024-12-20 04:00 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": false,
+          "dark_activity": false,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 0,
+          "sts_transfer_events": 1
+        }
+      },
+      "ownership": {
+        "current_owner": "WT MARINE PTE LTD",
+        "owner_country": "SG",
+        "registered_owner": "FAR EAST SHIPPING & TRDG PTE",
+        "manager": "FAR EAST SHIPPING & TRDG PTE",
+        "operator": "",
+        "beneficial_owner": "WT MARINE PTE LTD",
+        "ownership_changes": 0,
+        "name_changes": 0,
+        "last_change_date": "2020-03-04",
+        "owner_sanctioned": false,
+        "manager_reputation": "Not Sanctioned",
+        "reputation_score": 0.5
+      },
+      "sanctions": {
+        "ofac_hit": false,
+        "un_hit": false,
+        "eu_hit": false,
+        "sanctioned_entities": [],
+        "risk_level": "LOW",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "0",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": false,
+        "route_risk_level": "Yes"
+      },
+      "weather": {
+        "region": "High-risk tanker corridor",
+        "weather_conditions": {
+          "temperature": 25.0,
+          "wind_speed": 8.0,
+          "sea_state": "slight sea conditions",
+          "visibility": "Good",
+          "wave_height": 1.0
+        },
+        "piracy_zone": false,
+        "war_zone": false,
+        "storm_warning": false,
+        "ice_zone": false,
+        "route_risk_assessment": "No",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (Indian Register of Shipping (IRS))",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": true,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": false,
+        "isps_certified": true,
+        "doc_quality_score": "Fair",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2020-03-04"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 0,
+        "critical_events": 0,
+        "high_risk_events": 0,
+        "medium_risk_events": 0,
+        "recent_events": []
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 1,
+        "suspicious_routes": 0,
+        "recent_ports": []
+      }
+    }
+  ]
+}

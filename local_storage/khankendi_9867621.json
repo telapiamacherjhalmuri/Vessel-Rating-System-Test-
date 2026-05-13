@@ -1,0 +1,141 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "KHANKENDI",
+        "imo_number": "9867621",
+        "flag": "AZ",
+        "vessel_type": "LIQUID TANKER",
+        "dimensions": {
+          "length": 191.35,
+          "width": 25.63,
+          "depth": 7.74,
+          "tonnage": {
+            "gross": 88490,
+            "net": 57030,
+            "dead_weight": 163532
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 2020,
+        "classification_society": "Russian Maritime Register of Shipping",
+        "status": "Active",
+        "port_of_registry": "Baku",
+        "call_sign": "JSWP7",
+        "mmsi": "483568477",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 21.83259,
+          "longitude": 71.41007,
+          "timestamp": "2025-05-16 02:04 (UTC+0)"
+        },
+        "movement": {
+          "speed": 2.6,
+          "course": 326.0,
+          "heading": 17.0
+        },
+        "status": "Drifting",
+        "signal_quality": "Weak",
+        "accuracy": "95%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2025-05-16 02:04 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": false,
+          "dark_activity": false,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 0,
+          "sts_transfer_events": 1
+        }
+      },
+      "ownership": {
+        "current_owner": "AZERBAIJAN CASPIAN SHIPPING",
+        "owner_country": "AZ",
+        "registered_owner": "SA LEADER SHIPHOLDINGS AFEZCO",
+        "manager": "SEALION TANKERS INC",
+        "operator": "ASCO SHIPMANAGEMENT AFEZCO",
+        "beneficial_owner": "AZERBAIJAN CASPIAN SHIPPING",
+        "ownership_changes": 0,
+        "name_changes": 0,
+        "last_change_date": "2018-04-05",
+        "owner_sanctioned": false,
+        "manager_reputation": "Not Sanctioned",
+        "reputation_score": 0.5
+      },
+      "sanctions": {
+        "ofac_hit": false,
+        "un_hit": false,
+        "eu_hit": false,
+        "sanctioned_entities": [],
+        "risk_level": "LOW",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "0",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": false,
+        "route_risk_level": "Yes"
+      },
+      "weather": {
+        "region": "High-risk tanker corridor",
+        "weather_conditions": {
+          "temperature": 25.0,
+          "wind_speed": 8.0,
+          "sea_state": "slight sea conditions",
+          "visibility": "Good",
+          "wave_height": 1.0
+        },
+        "piracy_zone": false,
+        "war_zone": false,
+        "storm_warning": false,
+        "ice_zone": false,
+        "route_risk_assessment": "No",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (Russian Maritime Register of Shipping)",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": true,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": true,
+        "isps_certified": true,
+        "doc_quality_score": "Fair",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2018-04-05"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 0,
+        "critical_events": 0,
+        "high_risk_events": 0,
+        "medium_risk_events": 0,
+        "recent_events": []
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 1,
+        "suspicious_routes": 0,
+        "recent_ports": []
+      }
+    }
+  ]
+}

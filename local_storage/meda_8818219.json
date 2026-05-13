@@ -1,0 +1,178 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "MEDA",
+        "imo_number": "8818219",
+        "flag": "BW",
+        "vessel_type": "LPG TANKER",
+        "dimensions": {
+          "length": 87.77,
+          "width": 15.29,
+          "depth": 9.41,
+          "tonnage": {
+            "gross": 32398,
+            "net": 18798,
+            "dead_weight": 29720
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 1990,
+        "classification_society": "Korean Register (KR)",
+        "status": "Active",
+        "port_of_registry": "Francistown",
+        "call_sign": "MEQG2",
+        "mmsi": "311152580",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 17.4691,
+          "longitude": 51.28971,
+          "timestamp": "2025-09-04 06:50 (UTC+0)"
+        },
+        "movement": {
+          "speed": 2.9,
+          "course": 178.0,
+          "heading": 34.0
+        },
+        "status": "At Anchor",
+        "signal_quality": "Weak",
+        "accuracy": "71%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2025-09-04 06:50 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": true,
+          "dark_activity": true,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 1,
+          "sts_transfer_events": 1
+        }
+      },
+      "ownership": {
+        "current_owner": "AASMA KHAN SHIPPING MGMT",
+        "owner_country": "BW",
+        "registered_owner": "ARAFAT SHIPPING CO",
+        "manager": "AASMA KHAN SHIPPING MGMT",
+        "operator": "AASMA KHAN SHIPPING MGMT",
+        "beneficial_owner": "AASMA KHAN SHIPPING MGMT",
+        "ownership_changes": 0,
+        "name_changes": 2,
+        "last_change_date": "2013-09-19",
+        "owner_sanctioned": true,
+        "manager_reputation": "Sanctioned",
+        "reputation_score": 0.1
+      },
+      "sanctions": {
+        "ofac_hit": true,
+        "un_hit": true,
+        "eu_hit": true,
+        "sanctioned_entities": [
+          {
+            "name": "AASMA KHAN SHIPPING MGMT",
+            "relationship": "owner",
+            "list": "OFAC/UN/EU"
+          }
+        ],
+        "risk_level": "CRITICAL",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "Sanctions listing",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": false,
+        "route_risk_level": "Yes"
+      },
+      "weather": {
+        "region": "High-risk tanker corridor",
+        "weather_conditions": {
+          "temperature": 25.0,
+          "wind_speed": 8.0,
+          "sea_state": "slight sea conditions",
+          "visibility": "Good",
+          "wave_height": 1.0
+        },
+        "piracy_zone": false,
+        "war_zone": false,
+        "storm_warning": false,
+        "ice_zone": false,
+        "route_risk_assessment": "No",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (Korean Register (KR))",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": false,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": true,
+        "isps_certified": true,
+        "doc_quality_score": "Poor",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2013-09-19"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 5,
+        "critical_events": 2,
+        "high_risk_events": 2,
+        "medium_risk_events": 0,
+        "recent_events": [
+          {
+            "type": "OFAC_HIT",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is OFAC listed"
+          },
+          {
+            "type": "UN_SANCTION",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is UN-sanctioned"
+          },
+          {
+            "type": "EU_SANCTION",
+            "SEVERITY": "HIGH",
+            "date": "2026-05-07",
+            "description": "Vessel is EU-sanctioned"
+          },
+          {
+            "type": "AIS_SPOOFING",
+            "severity": "HIGH",
+            "date": "2026-05-07",
+            "description": "AIS spoofing risk detected"
+          },
+          {
+            "type": "DARK_ACTIVITY",
+            "severity": "HIGH",
+            "date": "2026-05-07",
+            "description": "Dark activity (AIS off) detected"
+          }
+        ]
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 1,
+        "suspicious_routes": 1,
+        "recent_ports": []
+      }
+    }
+  ]
+}

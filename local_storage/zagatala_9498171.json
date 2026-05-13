@@ -1,0 +1,141 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "ZAGATALA",
+        "imo_number": "9498171",
+        "flag": "AZ",
+        "vessel_type": "LIQUID TANKER",
+        "dimensions": {
+          "length": 159.28,
+          "width": 21.72,
+          "depth": 11.41,
+          "tonnage": {
+            "gross": 52294,
+            "net": 34778,
+            "dead_weight": 94968
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 2008,
+        "classification_society": "DNV",
+        "status": "Active",
+        "port_of_registry": "Baku",
+        "call_sign": "WVUF5",
+        "mmsi": "728925054",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 14.87082,
+          "longitude": 73.48305,
+          "timestamp": "2025-03-03 01:51 (UTC+0)"
+        },
+        "movement": {
+          "speed": 9.4,
+          "course": 275.0,
+          "heading": 289.0
+        },
+        "status": "Moored",
+        "signal_quality": "Moderate",
+        "accuracy": "80%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2025-03-03 01:51 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": false,
+          "dark_activity": false,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 0,
+          "sts_transfer_events": 1
+        }
+      },
+      "ownership": {
+        "current_owner": "AZERBAIJAN CASPIAN SHIPPING",
+        "owner_country": "AZ",
+        "registered_owner": "AZERBAIJAN CASPIAN SHIPPING",
+        "manager": "AZERBAIJAN CASPIAN SHIPPING",
+        "operator": "AZERBAIJAN CASPIAN SHIPPING",
+        "beneficial_owner": "AZERBAIJAN CASPIAN SHIPPING",
+        "ownership_changes": 0,
+        "name_changes": 0,
+        "last_change_date": "2021-11-27",
+        "owner_sanctioned": false,
+        "manager_reputation": "Not Sanctioned",
+        "reputation_score": 0.5
+      },
+      "sanctions": {
+        "ofac_hit": false,
+        "un_hit": false,
+        "eu_hit": false,
+        "sanctioned_entities": [],
+        "risk_level": "LOW",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "0",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": false,
+        "route_risk_level": "Yes"
+      },
+      "weather": {
+        "region": "High-risk tanker corridor",
+        "weather_conditions": {
+          "temperature": 25.0,
+          "wind_speed": 8.0,
+          "sea_state": "slight sea conditions",
+          "visibility": "Good",
+          "wave_height": 1.0
+        },
+        "piracy_zone": false,
+        "war_zone": false,
+        "storm_warning": false,
+        "ice_zone": false,
+        "route_risk_assessment": "No",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (DNV)",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": true,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": true,
+        "isps_certified": true,
+        "doc_quality_score": "Fair",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2021-11-27"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 0,
+        "critical_events": 0,
+        "high_risk_events": 0,
+        "medium_risk_events": 0,
+        "recent_events": []
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 1,
+        "suspicious_routes": 0,
+        "recent_ports": []
+      }
+    }
+  ]
+}

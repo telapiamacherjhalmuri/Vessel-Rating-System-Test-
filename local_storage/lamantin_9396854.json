@@ -1,0 +1,166 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "LAMANTIN",
+        "imo_number": "9396854",
+        "flag": "RU",
+        "vessel_type": "SUBSEA OPERATION VESSEL",
+        "dimensions": {
+          "length": 141.27,
+          "width": 23.76,
+          "depth": 8.03,
+          "tonnage": {
+            "gross": 12545,
+            "net": 6715,
+            "dead_weight": 9302
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 2008,
+        "classification_society": "RINA",
+        "status": "Active",
+        "port_of_registry": "Vladivostok",
+        "call_sign": "YSNQ6",
+        "mmsi": "603495578",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 43.49203,
+          "longitude": 33.80393,
+          "timestamp": "2024-01-26 15:11 (UTC+0)"
+        },
+        "movement": {
+          "speed": 10.7,
+          "course": 74.0,
+          "heading": 159.0
+        },
+        "status": "At Anchor",
+        "signal_quality": "Moderate",
+        "accuracy": "82%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2024-01-26 15:11 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": false,
+          "dark_activity": false,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 0,
+          "sts_transfer_events": 0
+        }
+      },
+      "ownership": {
+        "current_owner": "PROGRESSIVE MARINE TECHNOLOGY LTD",
+        "owner_country": "RU",
+        "registered_owner": "FARVATER LLC",
+        "manager": "FARVATER LLC",
+        "operator": "PROGRESSIVE MARINE TECHNOLOGY LTD",
+        "beneficial_owner": "PROGRESSIVE MARINE TECHNOLOGY LTD",
+        "ownership_changes": 0,
+        "name_changes": 2,
+        "last_change_date": "2006-03-09",
+        "owner_sanctioned": true,
+        "manager_reputation": "Sanctioned",
+        "reputation_score": 0.1
+      },
+      "sanctions": {
+        "ofac_hit": true,
+        "un_hit": true,
+        "eu_hit": true,
+        "sanctioned_entities": [
+          {
+            "name": "PROGRESSIVE MARINE TECHNOLOGY LTD",
+            "relationship": "owner",
+            "list": "OFAC/UN/EU"
+          }
+        ],
+        "risk_level": "CRITICAL",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "Sanctions listing",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": true,
+        "route_risk_level": "Yes"
+      },
+      "weather": {
+        "region": "Black Sea",
+        "weather_conditions": {
+          "temperature": 8.0,
+          "wind_speed": 12.0,
+          "sea_state": "moderate sea conditions",
+          "visibility": "Good",
+          "wave_height": 2.0
+        },
+        "piracy_zone": false,
+        "war_zone": true,
+        "storm_warning": false,
+        "ice_zone": true,
+        "route_risk_assessment": "Yes",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (RINA)",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": false,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": true,
+        "isps_certified": true,
+        "doc_quality_score": "Poor",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2006-03-09"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 3,
+        "critical_events": 2,
+        "high_risk_events": 0,
+        "medium_risk_events": 0,
+        "recent_events": [
+          {
+            "type": "OFAC_HIT",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is OFAC listed"
+          },
+          {
+            "type": "UN_SANCTION",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is UN-sanctioned"
+          },
+          {
+            "type": "EU_SANCTION",
+            "SEVERITY": "HIGH",
+            "date": "2026-05-07",
+            "description": "Vessel is EU-sanctioned"
+          }
+        ]
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 0,
+        "suspicious_routes": 0,
+        "recent_ports": []
+      }
+    }
+  ]
+}

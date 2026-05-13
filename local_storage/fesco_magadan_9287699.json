@@ -1,0 +1,141 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "FESCO MAGADAN",
+        "imo_number": "9287699",
+        "flag": "RU",
+        "vessel_type": "CONTAINER",
+        "dimensions": {
+          "length": 215.97,
+          "width": 29.75,
+          "depth": 14.93,
+          "tonnage": {
+            "gross": 80265,
+            "net": 51513,
+            "dead_weight": 82946
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 2003,
+        "classification_society": "Turkish Lloyd (TL)",
+        "status": "Inactive",
+        "port_of_registry": "Murmansk",
+        "call_sign": "JTMT9",
+        "mmsi": "689516208",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 42.44702,
+          "longitude": 38.22705,
+          "timestamp": "2025-06-16 12:07 (UTC+0)"
+        },
+        "movement": {
+          "speed": 0.3,
+          "course": 311.0,
+          "heading": 251.0
+        },
+        "status": "Drifting",
+        "signal_quality": "Weak",
+        "accuracy": "84%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2025-06-16 12:07 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": false,
+          "dark_activity": false,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 0,
+          "sts_transfer_events": 0
+        }
+      },
+      "ownership": {
+        "current_owner": "FESCO",
+        "owner_country": "RU",
+        "registered_owner": "INVESTKONSALTING LLC",
+        "manager": "INVESTKONSALTING LLC",
+        "operator": "INVESTKONSALTING LLC",
+        "beneficial_owner": "FESCO",
+        "ownership_changes": 0,
+        "name_changes": 0,
+        "last_change_date": "2021-06-06",
+        "owner_sanctioned": false,
+        "manager_reputation": "Not Sanctioned",
+        "reputation_score": 0.5
+      },
+      "sanctions": {
+        "ofac_hit": false,
+        "un_hit": false,
+        "eu_hit": false,
+        "sanctioned_entities": [],
+        "risk_level": "LOW",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "0",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": false,
+        "route_risk_level": "Yes"
+      },
+      "weather": {
+        "region": "Black Sea",
+        "weather_conditions": {
+          "temperature": 8.0,
+          "wind_speed": 12.0,
+          "sea_state": "moderate sea conditions",
+          "visibility": "Good",
+          "wave_height": 2.0
+        },
+        "piracy_zone": false,
+        "war_zone": true,
+        "storm_warning": false,
+        "ice_zone": true,
+        "route_risk_assessment": "Yes",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (Turkish Lloyd (TL))",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": true,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": true,
+        "isps_certified": true,
+        "doc_quality_score": "Fair",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2021-06-06"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 0,
+        "critical_events": 0,
+        "high_risk_events": 0,
+        "medium_risk_events": 0,
+        "recent_events": []
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 0,
+        "suspicious_routes": 0,
+        "recent_ports": []
+      }
+    }
+  ]
+}

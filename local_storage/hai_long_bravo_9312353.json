@@ -1,0 +1,166 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "HAI LONG BRAVO",
+        "imo_number": "9312353",
+        "flag": "PA",
+        "vessel_type": "GENERAL CARGO SHIP",
+        "dimensions": {
+          "length": 122.45,
+          "width": 15.68,
+          "depth": 5.2,
+          "tonnage": {
+            "gross": 6913,
+            "net": 4755,
+            "dead_weight": 10970
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 2004,
+        "classification_society": "Russian Maritime Register of Shipping",
+        "status": "Inactive",
+        "port_of_registry": "Balboa",
+        "call_sign": "RSKL0",
+        "mmsi": "729406746",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 1.17433,
+          "longitude": 20.39293,
+          "timestamp": "2024-10-20 16:58 (UTC+0)"
+        },
+        "movement": {
+          "speed": 5.8,
+          "course": 223.0,
+          "heading": 163.0
+        },
+        "status": "At Anchor",
+        "signal_quality": "Weak",
+        "accuracy": "89%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2024-10-20 16:58 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": false,
+          "dark_activity": false,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 0,
+          "sts_transfer_events": 0
+        }
+      },
+      "ownership": {
+        "current_owner": "DIMOND TOWN SHIPPING CO",
+        "owner_country": "PA",
+        "registered_owner": "DIMOND TOWN SHIPPING CO",
+        "manager": "DIMOND TOWN SHIPPING CO",
+        "operator": "EMERALD SHIP MANAGEMENT & OPS",
+        "beneficial_owner": "DIMOND TOWN SHIPPING CO",
+        "ownership_changes": 0,
+        "name_changes": 2,
+        "last_change_date": "2024-08-03",
+        "owner_sanctioned": true,
+        "manager_reputation": "Sanctioned",
+        "reputation_score": 0.1
+      },
+      "sanctions": {
+        "ofac_hit": true,
+        "un_hit": true,
+        "eu_hit": true,
+        "sanctioned_entities": [
+          {
+            "name": "DIMOND TOWN SHIPPING CO",
+            "relationship": "owner",
+            "list": "OFAC/UN/EU"
+          }
+        ],
+        "risk_level": "CRITICAL",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "Sanctions listing",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": false,
+        "route_risk_level": "Yes"
+      },
+      "weather": {
+        "region": "Open sea",
+        "weather_conditions": {
+          "temperature": 25.0,
+          "wind_speed": 8.0,
+          "sea_state": "slight sea conditions",
+          "visibility": "Good",
+          "wave_height": 1.0
+        },
+        "piracy_zone": false,
+        "war_zone": false,
+        "storm_warning": false,
+        "ice_zone": false,
+        "route_risk_assessment": "No",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (Russian Maritime Register of Shipping)",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": false,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": true,
+        "isps_certified": true,
+        "doc_quality_score": "Poor",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2024-08-03"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 3,
+        "critical_events": 2,
+        "high_risk_events": 0,
+        "medium_risk_events": 0,
+        "recent_events": [
+          {
+            "type": "OFAC_HIT",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is OFAC listed"
+          },
+          {
+            "type": "UN_SANCTION",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is UN-sanctioned"
+          },
+          {
+            "type": "EU_SANCTION",
+            "SEVERITY": "HIGH",
+            "date": "2026-05-07",
+            "description": "Vessel is EU-sanctioned"
+          }
+        ]
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 0,
+        "suspicious_routes": 0,
+        "recent_ports": []
+      }
+    }
+  ]
+}

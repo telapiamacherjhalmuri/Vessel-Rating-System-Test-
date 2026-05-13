@@ -1,0 +1,178 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "PRIMORYE",
+        "imo_number": "9236743",
+        "flag": "RU",
+        "vessel_type": "LIQUID TANKER",
+        "dimensions": {
+          "length": 157.98,
+          "width": 22.33,
+          "depth": 9.16,
+          "tonnage": {
+            "gross": 23009,
+            "net": 15156,
+            "dead_weight": 42927
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 2001,
+        "classification_society": "DNV",
+        "status": "Active",
+        "port_of_registry": "Novorossiysk",
+        "call_sign": "LCQB0",
+        "mmsi": "704508979",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 45.46092,
+          "longitude": 37.04106,
+          "timestamp": "2024-11-23 23:58 (UTC+0)"
+        },
+        "movement": {
+          "speed": 5.6,
+          "course": 73.0,
+          "heading": 47.0
+        },
+        "status": "Underway Using Engine",
+        "signal_quality": "Moderate",
+        "accuracy": "71%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2024-11-23 23:58 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": true,
+          "dark_activity": true,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 1,
+          "sts_transfer_events": 1
+        }
+      },
+      "ownership": {
+        "current_owner": "SOVCOMFLOT",
+        "owner_country": "RU",
+        "registered_owner": "NAYADA CO LTD",
+        "manager": "NAYADA CO LTD",
+        "operator": "NAYADA CO LTD",
+        "beneficial_owner": "SOVCOMFLOT",
+        "ownership_changes": 2,
+        "name_changes": 2,
+        "last_change_date": "2007-05-31",
+        "owner_sanctioned": true,
+        "manager_reputation": "Sanctioned",
+        "reputation_score": 0.1
+      },
+      "sanctions": {
+        "ofac_hit": true,
+        "un_hit": true,
+        "eu_hit": true,
+        "sanctioned_entities": [
+          {
+            "name": "SOVCOMFLOT",
+            "relationship": "owner",
+            "list": "OFAC/UN/EU"
+          }
+        ],
+        "risk_level": "CRITICAL",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "Sanctions listing",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": true,
+        "route_risk_level": "Yes"
+      },
+      "weather": {
+        "region": "Black Sea",
+        "weather_conditions": {
+          "temperature": 8.0,
+          "wind_speed": 12.0,
+          "sea_state": "moderate sea conditions",
+          "visibility": "Good",
+          "wave_height": 2.0
+        },
+        "piracy_zone": false,
+        "war_zone": true,
+        "storm_warning": false,
+        "ice_zone": true,
+        "route_risk_assessment": "Yes",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (DNV)",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": false,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": true,
+        "isps_certified": true,
+        "doc_quality_score": "Poor",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2007-05-31"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 5,
+        "critical_events": 2,
+        "high_risk_events": 2,
+        "medium_risk_events": 0,
+        "recent_events": [
+          {
+            "type": "OFAC_HIT",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is OFAC listed"
+          },
+          {
+            "type": "UN_SANCTION",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is UN-sanctioned"
+          },
+          {
+            "type": "EU_SANCTION",
+            "SEVERITY": "HIGH",
+            "date": "2026-05-07",
+            "description": "Vessel is EU-sanctioned"
+          },
+          {
+            "type": "AIS_SPOOFING",
+            "severity": "HIGH",
+            "date": "2026-05-07",
+            "description": "AIS spoofing risk detected"
+          },
+          {
+            "type": "DARK_ACTIVITY",
+            "severity": "HIGH",
+            "date": "2026-05-07",
+            "description": "Dark activity (AIS off) detected"
+          }
+        ]
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 1,
+        "suspicious_routes": 1,
+        "recent_ports": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "ZANGAZUR",
+        "imo_number": "9420617",
+        "flag": "AZ",
+        "vessel_type": "LIQUID TANKER",
+        "dimensions": {
+          "length": 200.07,
+          "width": 32.03,
+          "depth": 12.11,
+          "tonnage": {
+            "gross": 50472,
+            "net": 33674,
+            "dead_weight": 85676
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 2010,
+        "classification_society": "Lloyd's Register",
+        "status": "Inactive",
+        "port_of_registry": "Baku",
+        "call_sign": "ODLK8",
+        "mmsi": "774966971",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 8.55325,
+          "longitude": 52.68661,
+          "timestamp": "2025-03-01 07:45 (UTC+0)"
+        },
+        "movement": {
+          "speed": 8.4,
+          "course": 112.0,
+          "heading": 65.0
+        },
+        "status": "At Anchor",
+        "signal_quality": "Good",
+        "accuracy": "74%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2025-03-01 07:45 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": true,
+          "dark_activity": true,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 1,
+          "sts_transfer_events": 1
+        }
+      },
+      "ownership": {
+        "current_owner": "AZERBAIJAN STATE CASPIAN SHIPPING CO ASCSS",
+        "owner_country": "AZ",
+        "registered_owner": "SA ZANGAZUR SHIPHOLDINGS",
+        "manager": "SA MARITIME AFEZCO",
+        "operator": "ASCO SHIPMANAGEMENT AFEZCO",
+        "beneficial_owner": "AZERBAIJAN STATE CASPIAN SHIPPING CO ASCSS",
+        "ownership_changes": 0,
+        "name_changes": 2,
+        "last_change_date": "2011-07-21",
+        "owner_sanctioned": true,
+        "manager_reputation": "Sanctioned",
+        "reputation_score": 0.1
+      },
+      "sanctions": {
+        "ofac_hit": true,
+        "un_hit": true,
+        "eu_hit": true,
+        "sanctioned_entities": [
+          {
+            "name": "AZERBAIJAN STATE CASPIAN SHIPPING CO ASCSS",
+            "relationship": "owner",
+            "list": "OFAC/UN/EU"
+          }
+        ],
+        "risk_level": "CRITICAL",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "Sanctions listing",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": false,
+        "route_risk_level": "Yes"
+      },
+      "weather": {
+        "region": "High-risk tanker corridor",
+        "weather_conditions": {
+          "temperature": 25.0,
+          "wind_speed": 8.0,
+          "sea_state": "slight sea conditions",
+          "visibility": "Good",
+          "wave_height": 1.0
+        },
+        "piracy_zone": false,
+        "war_zone": false,
+        "storm_warning": false,
+        "ice_zone": false,
+        "route_risk_assessment": "No",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (Lloyd's Register)",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": false,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": true,
+        "isps_certified": true,
+        "doc_quality_score": "Poor",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2011-07-21"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 5,
+        "critical_events": 2,
+        "high_risk_events": 2,
+        "medium_risk_events": 0,
+        "recent_events": [
+          {
+            "type": "OFAC_HIT",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is OFAC listed"
+          },
+          {
+            "type": "UN_SANCTION",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is UN-sanctioned"
+          },
+          {
+            "type": "EU_SANCTION",
+            "SEVERITY": "HIGH",
+            "date": "2026-05-07",
+            "description": "Vessel is EU-sanctioned"
+          },
+          {
+            "type": "AIS_SPOOFING",
+            "severity": "HIGH",
+            "date": "2026-05-07",
+            "description": "AIS spoofing risk detected"
+          },
+          {
+            "type": "DARK_ACTIVITY",
+            "severity": "HIGH",
+            "date": "2026-05-07",
+            "description": "Dark activity (AIS off) detected"
+          }
+        ]
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 1,
+        "suspicious_routes": 1,
+        "recent_ports": []
+      }
+    }
+  ]
+}

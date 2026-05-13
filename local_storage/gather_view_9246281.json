@@ -1,0 +1,178 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "GATHER VIEW",
+        "imo_number": "9246281",
+        "flag": "SM",
+        "vessel_type": "LIQUID TANKER",
+        "dimensions": {
+          "length": 193.6,
+          "width": 26.53,
+          "depth": 9.45,
+          "tonnage": {
+            "gross": 74545,
+            "net": 44448,
+            "dead_weight": 135082
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 2002,
+        "classification_society": "ClassNK",
+        "status": "Active",
+        "port_of_registry": "San Marino",
+        "call_sign": "ACZI1",
+        "mmsi": "304721656",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 20.57613,
+          "longitude": 75.70634,
+          "timestamp": "2024-01-26 21:36 (UTC+0)"
+        },
+        "movement": {
+          "speed": 4.6,
+          "course": 98.0,
+          "heading": 89.0
+        },
+        "status": "Underway Using Engine",
+        "signal_quality": "Good",
+        "accuracy": "87%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2024-01-26 21:36 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": true,
+          "dark_activity": true,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 1,
+          "sts_transfer_events": 1
+        }
+      },
+      "ownership": {
+        "current_owner": "FOUR WOOD INTERNATIONAL TRADING CO LTD",
+        "owner_country": "SM",
+        "registered_owner": "FOUR WOOD INTERNATIONAL TRADING CO LTD",
+        "manager": "FOUR WOOD INTERNATIONAL TRADING CO LTD",
+        "operator": "",
+        "beneficial_owner": "FOUR WOOD INTERNATIONAL TRADING CO LTD",
+        "ownership_changes": 0,
+        "name_changes": 2,
+        "last_change_date": "2001-12-24",
+        "owner_sanctioned": true,
+        "manager_reputation": "Sanctioned",
+        "reputation_score": 0.1
+      },
+      "sanctions": {
+        "ofac_hit": true,
+        "un_hit": true,
+        "eu_hit": true,
+        "sanctioned_entities": [
+          {
+            "name": "FOUR WOOD INTERNATIONAL TRADING CO LTD",
+            "relationship": "owner",
+            "list": "OFAC/UN/EU"
+          }
+        ],
+        "risk_level": "CRITICAL",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "Sanctions listing",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": false,
+        "route_risk_level": "Yes"
+      },
+      "weather": {
+        "region": "High-risk tanker corridor",
+        "weather_conditions": {
+          "temperature": 25.0,
+          "wind_speed": 8.0,
+          "sea_state": "slight sea conditions",
+          "visibility": "Good",
+          "wave_height": 1.0
+        },
+        "piracy_zone": false,
+        "war_zone": false,
+        "storm_warning": false,
+        "ice_zone": false,
+        "route_risk_assessment": "No",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (ClassNK)",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": false,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": false,
+        "isps_certified": true,
+        "doc_quality_score": "Poor",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2001-12-24"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 5,
+        "critical_events": 2,
+        "high_risk_events": 2,
+        "medium_risk_events": 0,
+        "recent_events": [
+          {
+            "type": "OFAC_HIT",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is OFAC listed"
+          },
+          {
+            "type": "UN_SANCTION",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is UN-sanctioned"
+          },
+          {
+            "type": "EU_SANCTION",
+            "SEVERITY": "HIGH",
+            "date": "2026-05-07",
+            "description": "Vessel is EU-sanctioned"
+          },
+          {
+            "type": "AIS_SPOOFING",
+            "severity": "HIGH",
+            "date": "2026-05-07",
+            "description": "AIS spoofing risk detected"
+          },
+          {
+            "type": "DARK_ACTIVITY",
+            "severity": "HIGH",
+            "date": "2026-05-07",
+            "description": "Dark activity (AIS off) detected"
+          }
+        ]
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 1,
+        "suspicious_routes": 1,
+        "recent_ports": []
+      }
+    }
+  ]
+}

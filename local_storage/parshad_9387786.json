@@ -1,0 +1,166 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "PARSHAD",
+        "imo_number": "9387786",
+        "flag": "IR",
+        "vessel_type": "BULK CARRIER",
+        "dimensions": {
+          "length": 133.73,
+          "width": 22.58,
+          "depth": 13.78,
+          "tonnage": {
+            "gross": 80852,
+            "net": 45031,
+            "dead_weight": 137163
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 2008,
+        "classification_society": "Bureau Veritas",
+        "status": "Active",
+        "port_of_registry": "Bandar Abbas",
+        "call_sign": "MLBI3",
+        "mmsi": "620071874",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 28.93844,
+          "longitude": 54.7985,
+          "timestamp": "2024-01-27 22:05 (UTC+0)"
+        },
+        "movement": {
+          "speed": 7.2,
+          "course": 221.0,
+          "heading": 240.0
+        },
+        "status": "Moored",
+        "signal_quality": "Good",
+        "accuracy": "91%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2024-01-27 22:05 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": false,
+          "dark_activity": false,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 0,
+          "sts_transfer_events": 0
+        }
+      },
+      "ownership": {
+        "current_owner": "IRAN SHIPPING LINES",
+        "owner_country": "IR",
+        "registered_owner": "RAHBARAN OMID DARYA SHIP MGMT",
+        "manager": "RAHBARAN OMID DARYA SHIP MGMT",
+        "operator": "RAHBARAN OMID DARYA SHIP MGMT",
+        "beneficial_owner": "IRAN SHIPPING LINES",
+        "ownership_changes": 2,
+        "name_changes": 2,
+        "last_change_date": "2017-01-17",
+        "owner_sanctioned": true,
+        "manager_reputation": "Sanctioned",
+        "reputation_score": 0.1
+      },
+      "sanctions": {
+        "ofac_hit": true,
+        "un_hit": true,
+        "eu_hit": true,
+        "sanctioned_entities": [
+          {
+            "name": "IRAN SHIPPING LINES",
+            "relationship": "owner",
+            "list": "OFAC/UN/EU"
+          }
+        ],
+        "risk_level": "CRITICAL",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "Sanctions listing",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": true,
+        "route_risk_level": "Yes"
+      },
+      "weather": {
+        "region": "Persian Gulf",
+        "weather_conditions": {
+          "temperature": 25.0,
+          "wind_speed": 8.0,
+          "sea_state": "slight sea conditions",
+          "visibility": "Good",
+          "wave_height": 1.0
+        },
+        "piracy_zone": false,
+        "war_zone": false,
+        "storm_warning": false,
+        "ice_zone": false,
+        "route_risk_assessment": "No",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (Bureau Veritas)",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": false,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": true,
+        "isps_certified": true,
+        "doc_quality_score": "Poor",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2017-01-17"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 3,
+        "critical_events": 2,
+        "high_risk_events": 0,
+        "medium_risk_events": 0,
+        "recent_events": [
+          {
+            "type": "OFAC_HIT",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is OFAC listed"
+          },
+          {
+            "type": "UN_SANCTION",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is UN-sanctioned"
+          },
+          {
+            "type": "EU_SANCTION",
+            "SEVERITY": "HIGH",
+            "date": "2026-05-07",
+            "description": "Vessel is EU-sanctioned"
+          }
+        ]
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 0,
+        "suspicious_routes": 0,
+        "recent_ports": []
+      }
+    }
+  ]
+}

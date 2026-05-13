@@ -1,0 +1,166 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "HYONG JE BONG",
+        "imo_number": "8909915",
+        "flag": "PA",
+        "vessel_type": "GENERAL CARGO SHIP",
+        "dimensions": {
+          "length": 130.58,
+          "width": 21.46,
+          "depth": 11.47,
+          "tonnage": {
+            "gross": 14021,
+            "net": 9790,
+            "dead_weight": 19834
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 1989,
+        "classification_society": "China Classification Society (CCS)",
+        "status": "Active",
+        "port_of_registry": "Colon",
+        "call_sign": "APBF5",
+        "mmsi": "642133613",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": -2.84423,
+          "longitude": -42.40127,
+          "timestamp": "2024-08-11 04:44 (UTC+0)"
+        },
+        "movement": {
+          "speed": 3.0,
+          "course": 102.0,
+          "heading": 61.0
+        },
+        "status": "Drifting",
+        "signal_quality": "Weak",
+        "accuracy": "92%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2024-08-11 04:44 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": false,
+          "dark_activity": false,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 0,
+          "sts_transfer_events": 0
+        }
+      },
+      "ownership": {
+        "current_owner": "THAEMONG SHIPPING CO LTD",
+        "owner_country": "PA",
+        "registered_owner": "YUJIN SHIPPING CO LTD",
+        "manager": "YUJIN SHIPPING CO LTD",
+        "operator": "YUJIN SHIPPING CO LTD",
+        "beneficial_owner": "THAEMONG SHIPPING CO LTD",
+        "ownership_changes": 0,
+        "name_changes": 2,
+        "last_change_date": "2024-10-01",
+        "owner_sanctioned": true,
+        "manager_reputation": "Sanctioned",
+        "reputation_score": 0.1
+      },
+      "sanctions": {
+        "ofac_hit": true,
+        "un_hit": true,
+        "eu_hit": true,
+        "sanctioned_entities": [
+          {
+            "name": "THAEMONG SHIPPING CO LTD",
+            "relationship": "owner",
+            "list": "OFAC/UN/EU"
+          }
+        ],
+        "risk_level": "CRITICAL",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "Sanctions listing",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": false,
+        "route_risk_level": "Yes"
+      },
+      "weather": {
+        "region": "Open sea",
+        "weather_conditions": {
+          "temperature": 25.0,
+          "wind_speed": 8.0,
+          "sea_state": "slight sea conditions",
+          "visibility": "Good",
+          "wave_height": 1.0
+        },
+        "piracy_zone": false,
+        "war_zone": false,
+        "storm_warning": false,
+        "ice_zone": false,
+        "route_risk_assessment": "No",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (China Classification Society (CCS))",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": false,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": true,
+        "isps_certified": true,
+        "doc_quality_score": "Poor",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2024-10-01"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 3,
+        "critical_events": 2,
+        "high_risk_events": 0,
+        "medium_risk_events": 0,
+        "recent_events": [
+          {
+            "type": "OFAC_HIT",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is OFAC listed"
+          },
+          {
+            "type": "UN_SANCTION",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is UN-sanctioned"
+          },
+          {
+            "type": "EU_SANCTION",
+            "SEVERITY": "HIGH",
+            "date": "2026-05-07",
+            "description": "Vessel is EU-sanctioned"
+          }
+        ]
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 0,
+        "suspicious_routes": 0,
+        "recent_ports": []
+      }
+    }
+  ]
+}

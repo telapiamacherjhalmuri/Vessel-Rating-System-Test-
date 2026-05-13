@@ -1,0 +1,166 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "OMSKIY 119",
+        "imo_number": "8926913",
+        "flag": "RU",
+        "vessel_type": "GENERAL CARGO SHIP",
+        "dimensions": {
+          "length": 177.22,
+          "width": 26.71,
+          "depth": 5.81,
+          "tonnage": {
+            "gross": 16137,
+            "net": 9021,
+            "dead_weight": 20924
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 1980,
+        "classification_society": "Bureau Veritas",
+        "status": "Active",
+        "port_of_registry": "Vladivostok",
+        "call_sign": "CZLY0",
+        "mmsi": "724812538",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 44.29956,
+          "longitude": 34.73953,
+          "timestamp": "2024-05-22 10:47 (UTC+0)"
+        },
+        "movement": {
+          "speed": 14.4,
+          "course": 89.0,
+          "heading": 288.0
+        },
+        "status": "Moored",
+        "signal_quality": "Roaming",
+        "accuracy": "88%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2024-05-22 10:47 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": false,
+          "dark_activity": false,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 0,
+          "sts_transfer_events": 0
+        }
+      },
+      "ownership": {
+        "current_owner": "SEA RIVER SERVICE LLC",
+        "owner_country": "RU",
+        "registered_owner": "SEA RIVER SERVICE LLC",
+        "manager": "SEA RIVER SERVICE LLC",
+        "operator": "SEA RIVER SERVICE LLC",
+        "beneficial_owner": "SEA RIVER SERVICE LLC",
+        "ownership_changes": 0,
+        "name_changes": 2,
+        "last_change_date": "2012-09-28",
+        "owner_sanctioned": true,
+        "manager_reputation": "Sanctioned",
+        "reputation_score": 0.1
+      },
+      "sanctions": {
+        "ofac_hit": true,
+        "un_hit": true,
+        "eu_hit": true,
+        "sanctioned_entities": [
+          {
+            "name": "SEA RIVER SERVICE LLC",
+            "relationship": "owner",
+            "list": "OFAC/UN/EU"
+          }
+        ],
+        "risk_level": "CRITICAL",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "Sanctions listing",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": true,
+        "route_risk_level": "Yes"
+      },
+      "weather": {
+        "region": "Black Sea",
+        "weather_conditions": {
+          "temperature": 8.0,
+          "wind_speed": 12.0,
+          "sea_state": "moderate sea conditions",
+          "visibility": "Good",
+          "wave_height": 2.0
+        },
+        "piracy_zone": false,
+        "war_zone": true,
+        "storm_warning": false,
+        "ice_zone": true,
+        "route_risk_assessment": "Yes",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (Bureau Veritas)",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": false,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": true,
+        "isps_certified": true,
+        "doc_quality_score": "Poor",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2012-09-28"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 3,
+        "critical_events": 2,
+        "high_risk_events": 0,
+        "medium_risk_events": 0,
+        "recent_events": [
+          {
+            "type": "OFAC_HIT",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is OFAC listed"
+          },
+          {
+            "type": "UN_SANCTION",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is UN-sanctioned"
+          },
+          {
+            "type": "EU_SANCTION",
+            "SEVERITY": "HIGH",
+            "date": "2026-05-07",
+            "description": "Vessel is EU-sanctioned"
+          }
+        ]
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 0,
+        "suspicious_routes": 0,
+        "recent_ports": []
+      }
+    }
+  ]
+}

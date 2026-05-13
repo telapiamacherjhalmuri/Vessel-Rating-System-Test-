@@ -1,0 +1,172 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "LADY RANIA",
+        "imo_number": "9784893",
+        "flag": "RU",
+        "vessel_type": "LIQUID TANKER",
+        "dimensions": {
+          "length": 249.52,
+          "width": 41.17,
+          "depth": 12.24,
+          "tonnage": {
+            "gross": 79432,
+            "net": 54065,
+            "dead_weight": 131375
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 2015,
+        "classification_society": "",
+        "status": "Active",
+        "port_of_registry": "Novorossiysk",
+        "call_sign": "UMSP5",
+        "mmsi": "648363684",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 43.1138,
+          "longitude": 32.97785,
+          "timestamp": "2024-07-23 15:46 (UTC+0)"
+        },
+        "movement": {
+          "speed": 8.4,
+          "course": 292.0,
+          "heading": 85.0
+        },
+        "status": "Drifting",
+        "signal_quality": "Good",
+        "accuracy": "85%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2024-07-23 15:46 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": true,
+          "dark_activity": true,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 1,
+          "sts_transfer_events": 1
+        }
+      },
+      "ownership": {
+        "current_owner": "ABH HOLDINGS SA ABHH",
+        "owner_country": "RU",
+        "registered_owner": "BM FLOT LLC",
+        "manager": "BM FLOT LLC",
+        "operator": "BM FLOT LLC",
+        "beneficial_owner": "ABH HOLDINGS SA ABHH",
+        "ownership_changes": 0,
+        "name_changes": 2,
+        "last_change_date": "2004-12-08",
+        "owner_sanctioned": true,
+        "manager_reputation": "Sanctioned",
+        "reputation_score": 0.1
+      },
+      "sanctions": {
+        "ofac_hit": true,
+        "un_hit": true,
+        "eu_hit": true,
+        "sanctioned_entities": [
+          {
+            "name": "ABH HOLDINGS SA ABHH",
+            "relationship": "owner",
+            "list": "OFAC/UN/EU"
+          }
+        ],
+        "risk_level": "CRITICAL",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "Sanctions listing",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": true,
+        "route_risk_level": "Yes"
+      },
+      "weather": {
+        "region": "Black Sea",
+        "weather_conditions": {
+          "temperature": 8.0,
+          "wind_speed": 12.0,
+          "sea_state": "moderate sea conditions",
+          "visibility": "Good",
+          "wave_height": 2.0
+        },
+        "piracy_zone": false,
+        "war_zone": true,
+        "storm_warning": false,
+        "ice_zone": true,
+        "route_risk_assessment": "Yes",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [],
+        "insurance_valid": false,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": true,
+        "isps_certified": true,
+        "doc_quality_score": "Poor",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2004-12-08"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 5,
+        "critical_events": 2,
+        "high_risk_events": 2,
+        "medium_risk_events": 0,
+        "recent_events": [
+          {
+            "type": "OFAC_HIT",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is OFAC listed"
+          },
+          {
+            "type": "UN_SANCTION",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is UN-sanctioned"
+          },
+          {
+            "type": "EU_SANCTION",
+            "SEVERITY": "HIGH",
+            "date": "2026-05-07",
+            "description": "Vessel is EU-sanctioned"
+          },
+          {
+            "type": "AIS_SPOOFING",
+            "severity": "HIGH",
+            "date": "2026-05-07",
+            "description": "AIS spoofing risk detected"
+          },
+          {
+            "type": "DARK_ACTIVITY",
+            "severity": "HIGH",
+            "date": "2026-05-07",
+            "description": "Dark activity (AIS off) detected"
+          }
+        ]
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 1,
+        "suspicious_routes": 1,
+        "recent_ports": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "MAE BONG SAN",
+        "imo_number": "7506118",
+        "flag": "SL",
+        "vessel_type": "REEFER SHIP",
+        "dimensions": {
+          "length": 148.49,
+          "width": 20.66,
+          "depth": 8.35,
+          "tonnage": {
+            "gross": 7679,
+            "net": 4325,
+            "dead_weight": 6755
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 1975,
+        "classification_society": "Bureau Veritas",
+        "status": "Laid Up",
+        "port_of_registry": "Sherbro",
+        "call_sign": "VEIG1",
+        "mmsi": "504684509",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": -19.02118,
+          "longitude": 58.48064,
+          "timestamp": "2025-11-30 18:55 (UTC+0)"
+        },
+        "movement": {
+          "speed": 11.0,
+          "course": 163.0,
+          "heading": 242.0
+        },
+        "status": "Moored",
+        "signal_quality": "Weak",
+        "accuracy": "84%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2025-11-30 18:55 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": false,
+          "dark_activity": false,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 0,
+          "sts_transfer_events": 0
+        }
+      },
+      "ownership": {
+        "current_owner": "KOREA SOMUNBONG SHIPPING CO",
+        "owner_country": "SL",
+        "registered_owner": "KOREA SOMUNBONG SHIPPING CO",
+        "manager": "KOREA SOMUNBONG SHIPPING CO",
+        "operator": "KOREA SOMUNBONG SHIPPING CO",
+        "beneficial_owner": "",
+        "ownership_changes": 0,
+        "name_changes": 2,
+        "last_change_date": "2015-11-08",
+        "owner_sanctioned": true,
+        "manager_reputation": "Sanctioned",
+        "reputation_score": 0.1
+      },
+      "sanctions": {
+        "ofac_hit": true,
+        "un_hit": true,
+        "eu_hit": true,
+        "sanctioned_entities": [],
+        "risk_level": "CRITICAL",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "Sanctions listing",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": false,
+        "route_risk_level": "Yes"
+      },
+      "weather": {
+        "region": "Open sea",
+        "weather_conditions": {
+          "temperature": 25.0,
+          "wind_speed": 8.0,
+          "sea_state": "slight sea conditions",
+          "visibility": "Good",
+          "wave_height": 1.0
+        },
+        "piracy_zone": false,
+        "war_zone": false,
+        "storm_warning": false,
+        "ice_zone": false,
+        "route_risk_assessment": "No",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (Bureau Veritas)",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": false,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": true,
+        "isps_certified": true,
+        "doc_quality_score": "Poor",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2015-11-08"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 3,
+        "critical_events": 2,
+        "high_risk_events": 0,
+        "medium_risk_events": 0,
+        "recent_events": [
+          {
+            "type": "OFAC_HIT",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is OFAC listed"
+          },
+          {
+            "type": "UN_SANCTION",
+            "severity": "CRITICAL",
+            "date": "2026-05-07",
+            "description": "Vessel is UN-sanctioned"
+          },
+          {
+            "type": "EU_SANCTION",
+            "SEVERITY": "HIGH",
+            "date": "2026-05-07",
+            "description": "Vessel is EU-sanctioned"
+          }
+        ]
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 0,
+        "suspicious_routes": 0,
+        "recent_ports": []
+      }
+    }
+  ]
+}

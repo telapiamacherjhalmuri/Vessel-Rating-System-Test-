@@ -1,0 +1,141 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "NORTH LIGHT",
+        "imo_number": "9958298",
+        "flag": "SG",
+        "vessel_type": "LNG TANKER",
+        "dimensions": {
+          "length": 284.06,
+          "width": 47.73,
+          "depth": 10.72,
+          "tonnage": {
+            "gross": 106872,
+            "net": 64001,
+            "dead_weight": 59101
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 2024,
+        "classification_society": "Russian Maritime Register of Shipping",
+        "status": "Laid Up",
+        "port_of_registry": "Singapore",
+        "call_sign": "OIAL4",
+        "mmsi": "789806568",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 11.91969,
+          "longitude": 52.95346,
+          "timestamp": "2024-12-28 21:22 (UTC+0)"
+        },
+        "movement": {
+          "speed": 10.0,
+          "course": 134.0,
+          "heading": 274.0
+        },
+        "status": "At Anchor",
+        "signal_quality": "Moderate",
+        "accuracy": "77%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2024-12-28 21:22 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": false,
+          "dark_activity": false,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 0,
+          "sts_transfer_events": 1
+        }
+      },
+      "ownership": {
+        "current_owner": "MITSUI OSK LINES LTD",
+        "owner_country": "SG",
+        "registered_owner": "ARCTIC DIAMOND NO 2 LNG SHPG",
+        "manager": "MITSUI OSK LINES LTD",
+        "operator": "MOL LNG SHIP MANAGEMENT PTE LTD",
+        "beneficial_owner": "MITSUI OSK LINES LTD",
+        "ownership_changes": 0,
+        "name_changes": 0,
+        "last_change_date": "2019-12-22",
+        "owner_sanctioned": false,
+        "manager_reputation": "Not Sanctioned",
+        "reputation_score": 0.5
+      },
+      "sanctions": {
+        "ofac_hit": false,
+        "un_hit": false,
+        "eu_hit": false,
+        "sanctioned_entities": [],
+        "risk_level": "LOW",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "0",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": false,
+        "route_risk_level": "Yes"
+      },
+      "weather": {
+        "region": "High-risk tanker corridor",
+        "weather_conditions": {
+          "temperature": 25.0,
+          "wind_speed": 8.0,
+          "sea_state": "slight sea conditions",
+          "visibility": "Good",
+          "wave_height": 1.0
+        },
+        "piracy_zone": false,
+        "war_zone": false,
+        "storm_warning": false,
+        "ice_zone": false,
+        "route_risk_assessment": "No",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (Russian Maritime Register of Shipping)",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": true,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": true,
+        "isps_certified": true,
+        "doc_quality_score": "Fair",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2019-12-22"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 0,
+        "critical_events": 0,
+        "high_risk_events": 0,
+        "medium_risk_events": 0,
+        "recent_events": []
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 1,
+        "suspicious_routes": 0,
+        "recent_ports": []
+      }
+    }
+  ]
+}

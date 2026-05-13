@@ -1,0 +1,141 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "KALLISTA",
+        "imo_number": "9411965",
+        "flag": "PA",
+        "vessel_type": "LIQUID TANKER",
+        "dimensions": {
+          "length": 175.07,
+          "width": 27.75,
+          "depth": 8.35,
+          "tonnage": {
+            "gross": 20742,
+            "net": 14098,
+            "dead_weight": 31188
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 2010,
+        "classification_society": "RINA",
+        "status": "Active",
+        "port_of_registry": "Panama City",
+        "call_sign": "MEQH0",
+        "mmsi": "708988633",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 18.0272,
+          "longitude": 75.99535,
+          "timestamp": "2024-11-14 13:38 (UTC+0)"
+        },
+        "movement": {
+          "speed": 12.1,
+          "course": 101.0,
+          "heading": 127.0
+        },
+        "status": "Underway Using Engine",
+        "signal_quality": "Moderate",
+        "accuracy": "97%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2024-11-14 13:38 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": false,
+          "dark_activity": false,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 0,
+          "sts_transfer_events": 1
+        }
+      },
+      "ownership": {
+        "current_owner": "ALTOMARE SA",
+        "owner_country": "PA",
+        "registered_owner": "MERCURY SHIPSERVICES SA",
+        "manager": "ALTOMARE SA",
+        "operator": "ALTOMARE SA",
+        "beneficial_owner": "ALTOMARE SA",
+        "ownership_changes": 0,
+        "name_changes": 0,
+        "last_change_date": "2006-05-16",
+        "owner_sanctioned": false,
+        "manager_reputation": "Not Sanctioned",
+        "reputation_score": 0.5
+      },
+      "sanctions": {
+        "ofac_hit": false,
+        "un_hit": false,
+        "eu_hit": false,
+        "sanctioned_entities": [],
+        "risk_level": "LOW",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "0",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": false,
+        "route_risk_level": "Yes"
+      },
+      "weather": {
+        "region": "High-risk tanker corridor",
+        "weather_conditions": {
+          "temperature": 25.0,
+          "wind_speed": 8.0,
+          "sea_state": "slight sea conditions",
+          "visibility": "Good",
+          "wave_height": 1.0
+        },
+        "piracy_zone": false,
+        "war_zone": false,
+        "storm_warning": false,
+        "ice_zone": false,
+        "route_risk_assessment": "No",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (RINA)",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": true,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": true,
+        "isps_certified": true,
+        "doc_quality_score": "Fair",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2006-05-16"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 0,
+        "critical_events": 0,
+        "high_risk_events": 0,
+        "medium_risk_events": 0,
+        "recent_events": []
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 1,
+        "suspicious_routes": 0,
+        "recent_ports": []
+      }
+    }
+  ]
+}

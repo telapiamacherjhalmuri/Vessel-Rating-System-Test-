@@ -1,0 +1,141 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "CATTLE FORCE",
+        "imo_number": "9175901",
+        "flag": "TG",
+        "vessel_type": "SPECIAL CARGO SHIP",
+        "dimensions": {
+          "length": 187.22,
+          "width": 27.82,
+          "depth": 9.81,
+          "tonnage": {
+            "gross": 17005,
+            "net": 9185,
+            "dead_weight": 21153
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 1998,
+        "classification_society": "Korean Register (KR)",
+        "status": "Active",
+        "port_of_registry": "Lome",
+        "call_sign": "FDNV6",
+        "mmsi": "757957833",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 16.27377,
+          "longitude": 13.45474,
+          "timestamp": "2025-09-10 03:58 (UTC+0)"
+        },
+        "movement": {
+          "speed": 6.7,
+          "course": 349.0,
+          "heading": 212.0
+        },
+        "status": "At Anchor",
+        "signal_quality": "Good",
+        "accuracy": "80%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2025-09-10 03:58 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": false,
+          "dark_activity": false,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 0,
+          "sts_transfer_events": 0
+        }
+      },
+      "ownership": {
+        "current_owner": "MIRACLE NAVIGATION INC",
+        "owner_country": "TG",
+        "registered_owner": "MIRACLE NAVIGATION INC",
+        "manager": "SWEDISH MANAGEMENT CO SA",
+        "operator": "SWEDISH MANAGEMENT CO SA",
+        "beneficial_owner": "",
+        "ownership_changes": 0,
+        "name_changes": 0,
+        "last_change_date": "2003-03-02",
+        "owner_sanctioned": false,
+        "manager_reputation": "Not Sanctioned",
+        "reputation_score": 0.5
+      },
+      "sanctions": {
+        "ofac_hit": false,
+        "un_hit": false,
+        "eu_hit": false,
+        "sanctioned_entities": [],
+        "risk_level": "LOW",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "0",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": false,
+        "route_risk_level": "No"
+      },
+      "weather": {
+        "region": "Open sea",
+        "weather_conditions": {
+          "temperature": 25.0,
+          "wind_speed": 8.0,
+          "sea_state": "slight sea conditions",
+          "visibility": "Good",
+          "wave_height": 1.0
+        },
+        "piracy_zone": false,
+        "war_zone": false,
+        "storm_warning": false,
+        "ice_zone": false,
+        "route_risk_assessment": "No",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (Korean Register (KR))",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": true,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": true,
+        "isps_certified": true,
+        "doc_quality_score": "Fair",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2003-03-02"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 0,
+        "critical_events": 0,
+        "high_risk_events": 0,
+        "medium_risk_events": 0,
+        "recent_events": []
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 0,
+        "suspicious_routes": 0,
+        "recent_ports": []
+      }
+    }
+  ]
+}

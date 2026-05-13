@@ -1,0 +1,141 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "BLUE MOON",
+        "imo_number": "9752216",
+        "flag": "MH",
+        "vessel_type": "YACHT",
+        "dimensions": {
+          "length": 69.28,
+          "width": 8.72,
+          "depth": 4.96,
+          "tonnage": {
+            "gross": 6568,
+            "net": 2657,
+            "dead_weight": 2420
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 2014,
+        "classification_society": "Lloyd's Register",
+        "status": "Active",
+        "port_of_registry": "Majuro",
+        "call_sign": "WEYI9",
+        "mmsi": "299446119",
+        "last_updated": "2026-05-07"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": -0.98942,
+          "longitude": -59.27874,
+          "timestamp": "2025-09-07 06:26 (UTC+0)"
+        },
+        "movement": {
+          "speed": 12.8,
+          "course": 355.0,
+          "heading": 25.0
+        },
+        "status": "Moored",
+        "signal_quality": "Moderate",
+        "accuracy": "95%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2025-09-07 06:26 (UTC+0)"
+        },
+        "anomalies": {
+          "spoofing_detected": false,
+          "dark_activity": false,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 0,
+          "sts_transfer_events": 0
+        }
+      },
+      "ownership": {
+        "current_owner": "OCEAN 7 LTD",
+        "owner_country": "MH",
+        "registered_owner": "OCEAN 7 LTD",
+        "manager": "OCEAN 7 LTD",
+        "operator": "",
+        "beneficial_owner": "",
+        "ownership_changes": 0,
+        "name_changes": 0,
+        "last_change_date": "2009-02-05",
+        "owner_sanctioned": false,
+        "manager_reputation": "Not Sanctioned",
+        "reputation_score": 0.5
+      },
+      "sanctions": {
+        "ofac_hit": false,
+        "un_hit": false,
+        "eu_hit": false,
+        "sanctioned_entities": [],
+        "risk_level": "LOW",
+        "last_checked": "2026-05-07",
+        "last_violation_date": "0",
+        "detention_count": 0,
+        "psc_status": "CLEAR",
+        "deficiency_count": 0,
+        "banned": false,
+        "route_risk_level": "No"
+      },
+      "weather": {
+        "region": "Open sea",
+        "weather_conditions": {
+          "temperature": 25.0,
+          "wind_speed": 8.0,
+          "sea_state": "slight sea conditions",
+          "visibility": "Good",
+          "wave_height": 1.0
+        },
+        "piracy_zone": false,
+        "war_zone": false,
+        "storm_warning": false,
+        "ice_zone": false,
+        "route_risk_assessment": "No",
+        "last_updated": "2026-05-07"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (Lloyd's Register)",
+            "status": "VALID",
+            "expiry_date": "2028-05-01"
+          }
+        ],
+        "insurance_valid": true,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": false,
+        "isps_certified": true,
+        "doc_quality_score": "Fair",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2009-02-05"
+        },
+        "last_updated": "2026-05-07"
+      },
+      "risk_events": {
+        "total_events": 0,
+        "critical_events": 0,
+        "high_risk_events": 0,
+        "medium_risk_events": 0,
+        "recent_events": []
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 0,
+        "suspicious_routes": 0,
+        "recent_ports": []
+      }
+    }
+  ]
+}

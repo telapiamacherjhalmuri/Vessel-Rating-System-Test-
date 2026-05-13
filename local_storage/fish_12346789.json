@@ -1,0 +1,154 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "FISH",
+        "imo_number": "12346789",
+        "flag": "BOTSWANA",
+        "vessel_type": "LPG/Chemical Tanker",
+        "dimensions": {
+          "length": 119.95,
+          "width": 20.0,
+          "depth": 4.8,
+          "tonnage": {
+            "gross": 7893,
+            "net": 2977,
+            "dead_weight": 8709
+          }
+        },
+        "engine": {
+          "type": "",
+          "fuel_type": ""
+        },
+        "built_year": 2003,
+        "classification_society": "BUREAU VERITAS",
+        "status": "Active",
+        "port_of_registry": "PANAMA",
+        "call_sign": "A2AB78",
+        "mmsi": "611000278",
+        "last_updated": "2026-05-06"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 25.613745,
+          "longitude": 104.79788,
+          "timestamp": "2026-05-05T07:17:18.343718"
+        },
+        "movement": {
+          "speed": 7.3,
+          "course": 153.0,
+          "heading": 143.0
+        },
+        "status": "Underway using Engine",
+        "signal_quality": "Roaming",
+        "accuracy": "90%",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2026-05-05T07:17:18.343718"
+        },
+        "anomalies": {
+          "spoofing_detected": false,
+          "dark_activity": false,
+          "unusual_speed": false,
+          "unusual_route": false,
+          "spoofing_events": 0,
+          "sts_transfer_events": 0
+        }
+      },
+      "ownership": {
+        "current_owner": "FISH ENTERPRISE",
+        "owner_country": "PANAMA",
+        "registered_owner": "FISH ENTERPRISE",
+        "manager": "CHICKEN ENTERPRISE",
+        "operator": "BEEF ENTERPRISE",
+        "beneficial_owner": "MUTTON ENTERPRISE",
+        "ownership_changes": 0,
+        "name_changes": 0,
+        "last_change_date": "2003-03-13",
+        "owner_sanctioned": false,
+        "manager_reputation": "Not Sanctioned",
+        "reputation_score": 0.7
+      },
+      "sanctions": {
+        "ofac_hit": false,
+        "un_hit": false,
+        "eu_hit": false,
+        "sanctioned_entities": [],
+        "risk_level": "CRITICAL",
+        "last_checked": "2026-05-06",
+        "last_violation_date": "0",
+        "detention_count": 0,
+        "psc_status": "0 inspections detected",
+        "deficiency_count": 0,
+        "banned": false,
+        "route_risk_level": "Clean"
+      },
+      "weather": {
+        "region": "Oman Gulf",
+        "weather_conditions": {
+          "temperature": 31.0,
+          "wind_speed": 3.0,
+          "sea_state": "High shipping intensity",
+          "visibility": "Good",
+          "wave_height": 0.32
+        },
+        "piracy_zone": false,
+        "war_zone": false,
+        "storm_warning": false,
+        "ice_zone": false,
+        "route_risk_assessment": "No",
+        "last_updated": "2026-05-06"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "Classification Certificate (Bureau Veritas)",
+            "status": "EXPIRED",
+            "expiry_date": "2025-04-01"
+          }
+        ],
+        "insurance_valid": true,
+        "cii_rating": "Unknown",
+        "eedi_compliant": false,
+        "ism_certified": true,
+        "isps_certified": true,
+        "doc_quality_score": "Fair",
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 0,
+          "deficiencies": 0,
+          "last_inspection": "2003-03-13"
+        },
+        "last_updated": "2026-05-06"
+      },
+      "risk_events": {
+        "total_events": 2,
+        "critical_events": 1,
+        "high_risk_events": 1,
+        "medium_risk_events": 0,
+        "recent_events": [
+          {
+            "type": "OFAC_HIT",
+            "severity": "CRITICAL",
+            "date": "2026-05-06",
+            "description": "Vessel is OFAC listed"
+          },
+          {
+            "type": "CLASSIFICATION_EXPIRED",
+            "severity": "HIGH",
+            "date": "2025-04-01",
+            "description": "Bureau Veritas classification expired on 1 Apr 2025, not renewed as of analysis date"
+          }
+        ]
+      },
+      "port_call_history": {
+        "total_port_calls": 0,
+        "high_risk_ports": 0,
+        "sts_transfers": 0,
+        "suspicious_routes": 0,
+        "recent_ports": []
+      }
+    }
+  ]
+}

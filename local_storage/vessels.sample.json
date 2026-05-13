@@ -1,0 +1,147 @@
+{
+  "vessels": [
+    {
+      "vessel_info": {
+        "vessel_name": "Meghna Pearl",
+        "imo_number": "9894765",
+        "flag": "Panama",
+        "vessel_type": "General Cargo Ship",
+        "dimensions": {
+          "length": 178.0,
+          "width": 30.0,
+          "depth": 18.5,
+          "tonnage": {
+            "gross": 25000,
+            "dead_weight": 32500
+          }
+        },
+        "engine": {
+          "type": "Diesel-Electric",
+          "power_kw": 6850,
+          "fuel_type": "Marine Gas Oil"
+        },
+        "capacity": 32500,
+        "builder": "China State Shipbuilding Corporation",
+        "built_year": 2015,
+        "classification_society": "ClassNK",
+        "manager": "Bernhard Schulte Shipmanagement",
+        "p_and_i_club": "Gard",
+        "last_updated": "2026-05-05"
+      },
+      "ais_data": {
+        "position": {
+          "latitude": 22.5431,
+          "longitude": 88.3660,
+          "timestamp": "2026-05-05T00:00:00"
+        },
+        "movement": {
+          "speed": 15.2,
+          "course": 125.5,
+          "heading": 126.0
+        },
+        "status": "Underway using Engine",
+        "ais_gaps": {
+          "detected": false,
+          "gap_hours": 0,
+          "last_signal": "2026-05-05T00:00:00"
+        },
+        "anomalies": {
+          "spoofing_detected": false,
+          "dark_activity": false,
+          "unusual_speed": false,
+          "unusual_route": false
+        }
+      },
+      "ownership": {
+        "current_owner": "Global Maritime Holdings Ltd",
+        "registered_owner": "Global Maritime Holdings Ltd",
+        "beneficial_owner": "To be verified",
+        "ownership_changes": 2,
+        "name_changes": 1,
+        "manager": "Bernhard Schulte Shipmanagement",
+        "classification_society": "ClassNK",
+        "p_and_i_club": "Gard",
+        "reputation_score": 0.75
+      },
+      "sanctions": {
+        "ofac_hit": false,
+        "un_hit": false,
+        "eu_hit": false,
+        "sanctioned_entities": [],
+        "risk_level": "LOW",
+        "last_checked": "2026-05-05"
+      },
+      "weather": {
+        "location": "22.5431, 88.3660",
+        "weather_conditions": {
+          "temperature": 25.0,
+          "wind_speed": 10.0,
+          "wind_direction": "NE",
+          "sea_state": "Moderate",
+          "visibility": "Good",
+          "precipitation": false,
+          "wave_height": 1.5
+        },
+        "piracy_zone": false,
+        "war_zone": false,
+        "storm_warning": false,
+        "last_updated": "2026-05-05"
+      },
+      "compliance": {
+        "certificates": [
+          {
+            "type": "International Certificate of Fitness",
+            "number": "PAN-123456",
+            "issued_date": "2022-05-15",
+            "expiry_date": "2027-05-14",
+            "status": "VALID"
+          },
+          {
+            "type": "International Oil Pollution Prevention",
+            "number": "PAN-789012",
+            "issued_date": "2022-08-20",
+            "expiry_date": "2027-08-19",
+            "status": "VALID"
+          },
+          {
+            "type": "International Load Line Certificate",
+            "number": "PAN-345678",
+            "issued_date": "2021-03-10",
+            "expiry_date": "2027-03-09",
+            "status": "VALID"
+          }
+        ],
+        "insurance_valid": true,
+        "inspection_status": "CLEAR",
+        "port_state_control": {
+          "inspections": 2,
+          "deficiencies": 0,
+          "last_inspection": "2026-01-15"
+        }
+      },
+      "risk_events": {
+        "total_events": 1,
+        "critical_events": 0,
+        "high_risk_events": 0,
+        "medium_risk_events": 1
+      },
+      "port_call_history": {
+        "total_port_calls": 24,
+        "high_risk_ports": 2,
+        "sts_transfers": 1,
+        "recent_ports": [
+          {
+            "port": "Singapore",
+            "date": "2026-04-10",
+            "risk_level": "LOW"
+          },
+          {
+            "port": "Port Said",
+            "date": "2026-04-05",
+            "risk_level": "MEDIUM"
+          }
+        ]
+      }
+    }
+  ]
+}
